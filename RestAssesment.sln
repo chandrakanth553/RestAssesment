@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAssesment", "RestAssesment\RestAssesment.csproj", "{AFC9F013-D607-4A5A-8989-5D5F3C273456}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAssesment", "RestAssesment\RestAssesment.csproj", "{AFC9F013-D607-4A5A-8989-5D5F3C273456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAssesmentTest", "RestAssesmentTest\RestAssesmentTest.csproj", "{C41BE934-B626-41F0-A089-55D32D4B9358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AFC9F013-D607-4A5A-8989-5D5F3C273456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC9F013-D607-4A5A-8989-5D5F3C273456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC9F013-D607-4A5A-8989-5D5F3C273456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41BE934-B626-41F0-A089-55D32D4B9358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41BE934-B626-41F0-A089-55D32D4B9358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41BE934-B626-41F0-A089-55D32D4B9358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41BE934-B626-41F0-A089-55D32D4B9358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,9 +4,11 @@ namespace RestAssesment
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter State");
+            var state = Console.ReadLine();
+            new RestService().Getdetails(state).Result.ForEach(x => Console.WriteLine(x));
         }
     }
 }
